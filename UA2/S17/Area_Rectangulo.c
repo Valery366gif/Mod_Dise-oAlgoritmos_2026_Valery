@@ -14,13 +14,13 @@ int main(void){
      printf("Digite la altura del rectangulo (cm): ");
      scanf ("%lf", &altura);
 
-     //Proceso: multiplica y guarda el resultado = 15B
+     //Proceso: multiplica y guarda el resultado = 15
 
      area = base * altura;
 
      //Salida: Muestra el area con 2 decimales
 
-     printf ("El area del rectangulo es %.2f cm\n", area);
+     printf ("El area del rectangulo es %.2f cm2\n", area);
 
      return 0;
 }
