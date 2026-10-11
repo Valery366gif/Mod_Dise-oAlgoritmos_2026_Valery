@@ -20,9 +20,13 @@ Facilitador: Giovanni Antonio Coto Calderón · Grupo _(número)_ · 2026
 
 ## 📖 Sobre este portafolio
 
-Este repositorio reúne el trabajo que realizo en el módulo Diseño de algoritmos: primero los algoritmos en PSeInt (UA1) y después su traducción y desarrollo en lenguaje C (UA2 y UA3). Cada sesión tiene su carpeta con los archivos de trabajo y un README.md con la prueba de ejecución, lo que aprendí y mi autoevaluación. 
+Este repositorio reúne el trabajo que realizo en el módulo **Diseño de algoritmos**:
+primero los algoritmos en **PSeInt** (UA1) y después su traducción y desarrollo en
+**lenguaje C** (UA2 y UA3). Cada sesión tiene su carpeta con los archivos de trabajo y
+un `README.md` con la prueba de ejecución, lo que aprendí y mi autoevaluación.
 
-Cada sesión cuenta con su carpeta correspondiente para guardar los ejercicios, las capturas de ejecución y un `README.md` con la explicación del trabajo realizado, los aprendizajes y la autoevaluación.
+> **Recorrido sugerido:** revisar la bitácora para ver el trabajo más reciente, luego el
+> registro de evidencias por unidad y abrir el enlace de las sesiones que interesen.
 
 **Estado de cada sesión:** ⬜ Pendiente · 🟡 En proceso · ✅ Completa
 
@@ -30,26 +34,28 @@ Cada sesión cuenta con su carpeta correspondiente para guardar los ejercicios, 
 
 ## 🗓 Bitácora diaria
 
-Agregar una fila por cada día de clase, colocando la fecha más reciente primero.
+Una fila por día de clase, **la más reciente arriba**. Se completa al final de la jornada,
+antes del último `git push`.
 
-| Fecha | Sesión | Qué hice hoy | Pendiente para la próxima |
-|:---:|:---:|:---|:---|
-| dd/mm/2026 | S__ | _(Describir el trabajo realizado durante la clase)_ | _(Anotar lo que falta por terminar)_ |
-| dd/mm/2026 | S__ | | |
+| Fecha | Sesión | Qué hice hoy                                       | Pendiente para la próxima   |
+| :---: | :----: | :------------------------------------------------- | :-------------------------- |
+| dd/mm |  S18   | _(ej.: traduje Aprobacion y CajeroAutomatico a C)_ | _(ej.: terminar credito.c)_ |
+| dd/mm |  S17   |                                                    |                             |
 
 <details>
 <summary><b>Rutina de cada día</b></summary>
 
 ```bash
-git pull
-# Trabajar en la carpeta de la sesión correspondiente y actualizar su README.md
-git status
-git add .
-git commit -m "SXX: describe el cambio realizado"
-git push
+git pull                                   # 1. traer lo más reciente
+# 2. trabajar en la carpeta de la sesión (UA2/S18/...) y completar su README.md
+git status                                 # 3. revisar qué cambió
+git add .                                  # 4. preparar los cambios
+git commit -m "S18: agrega credito.c"      # 5. registrar con el formato SXX: verbo + qué
+git push                                   # 6. subir a GitHub
 ```
 
-Antes de finalizar, actualizar la bitácora y el estado de la sesión en el registro de evidencias.
+Antes del último `push` del día: agregar la fila de la bitácora y actualizar el estado
+de la sesión en el registro de evidencias.
 
 </details>
 
@@ -57,7 +63,7 @@ Antes de finalizar, actualizar la bitácora y el estado de la sesión en el regi
 
 ## 📁 Estructura del repositorio
 
-```text
+```
 CSTI12010-2026-nombre-apellido/
 ├── README.md                ← este archivo (presentación, bitácora y registro)
 ├── UA1/S01 … S12/           ← algoritmos en PSeInt (.psc), una carpeta por sesión
@@ -69,7 +75,8 @@ CSTI12010-2026-nombre-apellido/
     └── PLANTILLA_SESION.md  ← modelo del README de cada sesión
 ```
 
-Las capturas de pantalla deben guardarse dentro de una carpeta `capturas/` en la sesión correspondiente. Por ejemplo: `UA2/S18/capturas/credito.png`.
+Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
+(por ejemplo `UA2/S17/capturas/factura.png`).
 
 ---
 
