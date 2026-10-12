@@ -1,11 +1,15 @@
+
 #include <stdio.h>
+
+#include <stdbool.h>
 
 int main(void) {
     // Declaración de variable entera para el año y lógica para bisiesto
-    int anio, esBisiesto;
+    int anio;
+    bool esBisiesto;
 
     // Solicita el año a evaluar
-    printf("Anio: ");
+    printf("Ingrese el año: ");
     scanf("%d", &anio);
 
     // Proceso: aplica la regla del año bisiesto
