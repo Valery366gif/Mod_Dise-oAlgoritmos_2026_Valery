@@ -111,9 +111,9 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 |   S14   | Sistemas numéricos | Conocí los sistemas numéricos utilizados en informática y su importancia. | [Ver](UA2/S14/evidenciaS14.png) | ⬜ |
 |   S15   | Control de versiones con Git y GitHub | Aprendí a registrar cambios y mantener los archivos del proyecto organizados mediante Git y GitHub. | [Ver](UA2/S15/evidencia.png) | ⬜ |
 |   S16   | Formato de un programa en C y compilación | Reconocí la estructura básica de un programa en C y practiqué el proceso de compilación. | [Ver](UA2/S16/evidencia16.png) | ⬜ |
-|   S17   | Variables, constantes y entrada/salida | Practiqué la declaración de variables y constantes, así como la lectura y presentación de datos. | [Ver](UA2/S17/) | ⬜ |
-|   S18   | Operadores, casting e if…else | Aprendí a utilizar operadores, conversiones de tipos y condiciones para controlar el programa. | [Ver](UA2/S18/) | ⬜ |
-|   S19   | Ciclos y switch                              |             |               [ver](UA2/S19/)                |   ⬜   |
+|   S17   | Variables, constantes y entrada/salida | Practiqué la declaración de variables y constantes, así como la lectura y presentación de datos. | [Ver](UA2/S17/evidencia17.png) | ⬜ |
+|   S18   | Operadores, casting e if…else | Aprendí a utilizar operadores, conversiones de tipos y condiciones para controlar el programa. | [Ver](UA2/S18/evidencia18.png) | ⬜ |
+|   S19   | Ciclos y switch                              |  En esta sesión aprendí que los ciclos permiten repetir instrucciones varias veces sin tener que escribir el mismo código repetidamente. También aprendí que el ciclo `while` repite las instrucciones mientras se cumpla una condición, y que es importante establecer una condición para evitar que se repita infinitamente. Además, aprendí que la estructura `switch` sirve para ejecutar diferentes bloques de código dependiendo del valor de una variable.           |               [ver](UA2/S19/evidencia19.png)                |   ⬜   |
 |   S20   | Arreglos, matrices y cadenas                 |             |               [ver](UA2/S20/)                |   ⬜   |
 |   S21   | Funciones                                    |             |               [ver](UA2/S21/)                |   ⬜   |
 |   S22   | Paso de parámetros por valor y por dirección |             |               [ver](UA2/S22/)                |   ⬜   |
