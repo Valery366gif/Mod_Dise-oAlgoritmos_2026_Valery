@@ -108,9 +108,9 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 
 | Sesión | Tema | Qué aprendí | Evidencia | Estado |
 |:---:|:---|:---|:---:|:---:|
-|   S14   | Sistemas numéricos | Conocí los sistemas numéricos utilizados en informática y su importancia. | [Ver](UA2/S14/) | ⬜ |
-|   S15   | Control de versiones con Git y GitHub | Aprendí a registrar cambios y mantener los archivos del proyecto organizados mediante Git y GitHub. | [Ver](UA2/S15/) | ⬜ |
-|   S16   | Formato de un programa en C y compilación | Reconocí la estructura básica de un programa en C y practiqué el proceso de compilación. | [Ver](UA2/S16/) | ⬜ |
+|   S14   | Sistemas numéricos | Conocí los sistemas numéricos utilizados en informática y su importancia. | [Ver](UA2/S14/evidenciaS14.png) | ⬜ |
+|   S15   | Control de versiones con Git y GitHub | Aprendí a registrar cambios y mantener los archivos del proyecto organizados mediante Git y GitHub. | [Ver](UA2/S15/evidencia.png) | ⬜ |
+|   S16   | Formato de un programa en C y compilación | Reconocí la estructura básica de un programa en C y practiqué el proceso de compilación. | [Ver](UA2/S16/evidencia16.png) | ⬜ |
 |   S17   | Variables, constantes y entrada/salida | Practiqué la declaración de variables y constantes, así como la lectura y presentación de datos. | [Ver](UA2/S17/) | ⬜ |
 |   S18   | Operadores, casting e if…else | Aprendí a utilizar operadores, conversiones de tipos y condiciones para controlar el programa. | [Ver](UA2/S18/) | ⬜ |
 |   S19   | Ciclos y switch                              |             |               [ver](UA2/S19/)                |   ⬜   |
