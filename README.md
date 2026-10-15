@@ -114,7 +114,7 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 |   S17   | Variables, constantes y entrada/salida | Practiqué la declaración de variables y constantes, así como la lectura y presentación de datos. | [Ver](UA2/S17/evidencia17.png) | ⬜ |
 |   S18   | Operadores, casting e if…else | Aprendí a utilizar operadores, conversiones de tipos y condiciones para controlar el programa. | [Ver](UA2/S18/evidencia18.png) | ⬜ |
 |   S19   | Ciclos y switch                              |  En esta sesión aprendí que los ciclos permiten repetir instrucciones varias veces sin tener que escribir el mismo código repetidamente. También aprendí que el ciclo `while` repite las instrucciones mientras se cumpla una condición, y que es importante establecer una condición para evitar que se repita infinitamente. Además, aprendí que la estructura `switch` sirve para ejecutar diferentes bloques de código dependiendo del valor de una variable.           |               [ver](UA2/S19/evidencia19.png)                |   ⬜   |
-|   S20   | Arreglos, matrices y cadenas                 |             |               [ver](UA2/S20/)                |   ⬜   |
+|   S20   | Arreglos, matrices y cadenas                 |             | [ver](UA2/S20/evidencia20.png)               |   ⬜   |
 |   S21   | Funciones                                    |             |               [ver](UA2/S21/)                |   ⬜   |
 |   S22   | Paso de parámetros por valor y por dirección |             |               [ver](UA2/S22/)                |   ⬜   |
 | S23–S24 | **Actividad de comprobación 2**              |             | [ver](actividades/A2_Mi_primera_aplicacion/) |   ⬜   |
