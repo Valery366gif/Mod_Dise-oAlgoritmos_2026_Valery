@@ -1,4 +1,5 @@
 #include <stdio.h> 
+#include <stdlib.h> 
 
 #define LIMITE 48 
 #define RECARGO 1.5
@@ -39,5 +40,7 @@ int main(void) {
     printf("Con horas extra: %d\n", conExtra); // Muestra cuántas personas hicieron horas extra.
     printf("Total de la planilla: %.2f\n", totalPlanilla); // Muestra el total de los pagos.
 
+        system("pause");
+        
     return 0; 
 }
