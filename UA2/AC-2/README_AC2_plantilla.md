@@ -18,7 +18,7 @@
 
 | Datos de entrada | Proceso | Datos de salida | Limitaciones |
 |------------------|---------|-----------------|--------------|
-|1.Nombre completo del estudiante (ej: Juan Perez) 2.Tres calificaciones numéricas entre 0 y 100 (ej: 75, 82, 68) | 1. Recibir nombre validando que no esté vacío.2. Almacenar las 3 notas en un arreglo float notas[3] usando un bucle for y validando cada valor con do-while.3. Recorrer el arreglo para calcular la suma, el promedio y hallar la nota más alta4. Asignar condición (APROBADO, EN RIESGO, NO APROBADO) usando strcpy. |Nombre del estudiante. 2.Detalle de las 3 calificaciones. 3.Promedio (2 decimales). 4.Nota más alta. 5.Condición académica  |1.Solo procesa exactamente tres calificaciones. 2.Rango de notas limitado de 0 a 100.|
+|1.Nombre completo del estudiante (ej: Juan Perez) 2.Tres calificaciones numéricas entre 0 y 100 (ej: 75, 82, 68) | 1. Recibir nombre validando que no esté vacío.2. Almacenar las 3 notas en un arreglo float notas[3] usando un bucle for y validando cada valor con do-while. 3. Recorrer el arreglo para calcular la suma, el promedio y hallar la nota más alta4. Asignar condición (APROBADO, EN RIESGO, NO APROBADO) usando strcpy. |Nombre del estudiante. 2.Detalle de las 3 calificaciones. 4.Promedio (2 decimales). 5.Nota más alta. 6.Condición académica  |1.Solo procesa exactamente tres calificaciones. 2.Rango de notas limitado de 0 a 100.|
 
 **Ejecución con los datos del ejemplo:**
 
@@ -28,12 +28,12 @@
 
 | Datos de entrada | Proceso | Datos de salida | Limitaciones |
 |------------------|---------|-----------------|--------------|
-|  |  |  |  |
+|1.Nombre del cliente (ej: Ana Garcia) 2.Por cada producto (hasta 10): Nombre, Precio unitario (> 0), Cantidad (> 0). 3.Respuesta de continuación (S/N) |1. Usar arreglos paralelos (nombres, precios, cantidades, subtotales). 2. Validar entradas con ciclos y limpiar el buffer con getchar tras scanf. 3. Calcular subtotal por producto y acumular el subtotal general. 4. Aplicar descuento por tramos (<100: 0%, 100-500: 5%, 500-1000: 10%, >1000: 15%). 5. Calcular impuesto del 13% sobre el total con descuento y el total final a pagar.  |Factura detallada con cliente, tabla de productos, cantidad registrada, subtotal, descuento aplicado, total con descuento, impuesto (13%) y TOTAL A PAGAR.  |1.Máximo de 10 productos por compra. 2.Las entradas de control de menú solo aceptan S o N.  |
 
 **Ejecución con los datos del ejemplo:**
 
-![Ejecución](/UA2/AC-2/P3)
+![Ejecución](/UA2/AC-2/P3_Compras/evidencias-P3-Compras.png)
 
 ## Conclusión
 
-(Qué aprendí y qué fue lo más difícil de pasar de PSeInt a C.)
+La transición de PSeInt a C en esta actividad permitió comprender el manejo de la memoria y la sintaxis estructurada mediante la declaración de tipos de datos, el uso de constantes con #define, el control riguroso de búferes de entrada con getchar y strcspn, y la aplicación fundamental de arreglos unidimensionales y paralelos. Lo más complejo fue asegurar la validación estricta de las entradas numéricas y de cadenas evitando bucles infinitos, pero el resultado demuestra un dominio sólido de la programación estructurada en C.
