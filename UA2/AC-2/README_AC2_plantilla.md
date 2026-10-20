@@ -18,7 +18,7 @@
 
 | Datos de entrada | Proceso | Datos de salida | Limitaciones |
 |------------------|---------|-----------------|--------------|
-|1.Nombre completo del estudiante (ej: Juan Perez) 2.Tres calificaciones numéricas entre 0 y 100 (ej: 75, 82, 68) | 1. Recibir nombre validando que no esté vacío.2. Almacenar las 3 notas en un arreglo float notas[3] usando un bucle for y validando cada valor con do-while. 3. Recorrer el arreglo para calcular la suma, el promedio y hallar la nota más alta4. Asignar condición (APROBADO, EN RIESGO, NO APROBADO) usando strcpy. |Nombre del estudiante. 2.Detalle de las 3 calificaciones. 4.Promedio (2 decimales). 5.Nota más alta. 6.Condición académica  |1.Solo procesa exactamente tres calificaciones. 2.Rango de notas limitado de 0 a 100.|
+|1.Nombre completo del estudiante (ej: Juan Perez) 2.Tres calificaciones numéricas entre 0 y 100 (ej: 75, 82, 68) | 1. Recibir nombre validando que no esté vacío.2. Almacenar las 3 notas en un arreglo float notas[3] usando un bucle for y validando cada valor con do-while. 3. Recorrer el arreglo para calcular la suma, el promedio y hallar la nota más alta. 4. Asignar condición (APROBADO, EN RIESGO, NO APROBADO) usando strcpy. |Nombre del estudiante. 2.Detalle de las 3 calificaciones. 4.Promedio (2 decimales). 5.Nota más alta. 6.Condición académica  |1.Solo procesa exactamente tres calificaciones. 2.Rango de notas limitado de 0 a 100.|
 
 **Ejecución con los datos del ejemplo:**
 
