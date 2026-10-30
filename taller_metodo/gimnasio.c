@@ -1,4 +1,4 @@
-//ENUNCIADO: Un gimnasio registra las inscripciones del día (de 1 a 10). De cada una se digita el nombre del socio (una palabra),                  el plan (1 Mensual 18000, 2 Trimestral 48000, 3 Anual 160000) y la edad (de 15 a 90); un dato inválido se vuelve a pedir.                          Los socios de 65 años o más tienen 20 % de descuento y los menores de 18, 15 %. Mostrar una tabla con nombre, edad y monto,                         el total del día, la inscripción mayor y cuántas tuvieron descuento.
+//ENUNCIADO: Un gimnasio registra las inscripciones del día (de 1 a 10). De cada una se digita el nombre del socio (una palabra), el plan (1 Mensual 18000, 2 Trimestral 48000, 3 Anual 160000) y la edad (de 15 a 90); un dato inválido se vuelve a pedir. Los socios de 65 años o más tienen 20 % de descuento y los menores de 18, 15 %. Mostrar una tabla con nombre, edad y monto,el total del día, la inscripción mayor y cuántas tuvieron descuento.
 
 
 #include <stdio.h>
