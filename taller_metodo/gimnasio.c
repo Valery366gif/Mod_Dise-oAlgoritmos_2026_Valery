@@ -120,7 +120,7 @@ double calcularTotal(int tipo, int edad){
     return total;
 }
 
-// Función que procesa los datos mediante paso por referencia para calcular estadísticas del día
+//Definir resumir
 void resumir(const int cant[], const double tot[],int n, double *total, int *posMayor, int *conDescuento){
     int i;
 
