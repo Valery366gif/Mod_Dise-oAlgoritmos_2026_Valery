@@ -118,17 +118,17 @@ double energiaResidencial(int kwh) {
     return costoEnergia;
 }
 
-// Calcula el recibo total seleccionando con switch según el tipo[cite: 1]
+// Calcula el recibo total seleccionando con switch según el tipo
 double calcularRecibo(int tipo, int kwh) {
     double energia = 0.0;
     double alumbrado = 0.0;
     double subtotal = 0.0;
 
     switch (tipo) {
-        case 1: // Residencial[cite: 1]
+        case 1: // Residencial
             energia = energiaResidencial(kwh);
             break;
-        case 2: // Comercial[cite: 1]
+        case 2: // Comercial
             energia = (kwh * TARIFA_COMERCIAL) + CARGO_FIJO_COMERCIAL;
             break;
         default:
@@ -136,7 +136,7 @@ double calcularRecibo(int tipo, int kwh) {
             break;
     }
 
-    // El alumbrado público se calcula sobre el monto de la energía[cite: 1]
+    // El alumbrado público se calcula sobre el monto de la energía
     alumbrado = energia * PORCENTAJE_ALUMBRADO;
     subtotal = energia + alumbrado;
 
